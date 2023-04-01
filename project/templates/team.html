@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% block main %}
+ <!-- ======= Team Section ======= -->
+ <section id="team" class="team section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Team</h2>
+      <p>At our company, we believe that working collaboratively and in teams is the key to success. We know that the best solutions come from brainstorming ideas and working together towards a common goal. That's why we foster a strong sense of teamwork in everything we do.</p>
+    </div>
+
+    <div class="row">
+      
+
+      <div class="col-lg-5 col-md-4 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div class="member-img">
+            <img src="{%  static  'img/team/rahul.jpg'' %}" class="img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Rahul Namdev</h4>
+            <span>Chief Executive Officer
+              <p>CEO</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member-img">
+            <img src="{%  static  'img/team/akash.jpeg' %}" class="img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Akash Sen</h4>
+            <span>Website Designer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member-img">
+            <img src="{%  static  'img/team/rahul1.jpeg' %}" class="img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Rahul HaldAKAR</h4>
+            <span>CTO</span>
+          </div>
+        </div>
+      </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Team Section -->
+  {% endblock main%}
